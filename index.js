@@ -12,6 +12,37 @@ async function connectToWhatsApp () {
     auth: state,
     browser: ["MD-BASE", "BOT", "3.0"]
   })
+  md.ev.on('group-participants.update', async ({id, participants, action}) => {
+
+try{
+
+var dbWelcome = JSON.parse(fs.readFileSync(__path + '/setting/welcome.json'));
+
+if (!dbWelcome.includes(id)) return
+
+if (action == "add"){
+
+var addText = `Halo @${participants[0].split("@")[0]}, Selamat datang!`
+
+md.sendMessage(id, {image: {url: "https://www.linkpicture.com/q/20230304_064711.jpg"}, caption: addText, mentions: participants})
+
+}
+
+if (action == "remove"){
+
+var removeText = `Dahhh @${participants[0].split("@")[0]}, Selamat tinggal!`
+
+md.sendMessage(id, {image: {url: "https://www.linkpicture.com/q/20230304_064727.jpg"}, caption: removeText, mentions: participants})
+
+}
+
+} catch(e){
+
+console.log(e)
+
+}
+
+})
 md.ev.on('connection.update', (update) => {
   const { connection, lastDisconnect } = update
   if(connection === 'close') {
