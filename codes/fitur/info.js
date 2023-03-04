@@ -7,7 +7,7 @@ var textInfo = `[ *${namabot}-INFO* ]
 • *namabot* : ${namabot}
 • *owner* : @${owner}
 
-*-* *Bot ini hanya untuk membuat stiker*
+*-* *Bot ini masih dalam tahap pengembangan*
 
 © ${namabot} | by *${nama}* | 🇮🇩`
 
