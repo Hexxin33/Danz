@@ -1,9 +1,9 @@
 // Silahkan ubah di bawah ini semau kalian
 var nama = 'Zizz'
-var namabot = 'ZIZIMBOTZ'
+var namabot = 'YUMIBOTZ'
 var owner = '6281380979628'
 var reply = '[ BOT ] WHATSAPP'
-var donasi = 'https://i.ibb.co/3MkDvQh/63-E31005-DCDA820230208.jpg'
+var donasi = 'undefined'
 
 
 // yang Di bawah ini jangan di ubah 👇
