@@ -1,6 +1,6 @@
 // Silahkan ubah di bawah ini semau kalian
 var nama = 'Zizz'
-var namabot = 'YUMIBOTZ'
+var namabot = 'DanzBot'
 var owner = '6281380979628'
 var reply = '[ BOT ] WHATSAPP'
 var donasi = 'undefined'
