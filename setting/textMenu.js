@@ -15,6 +15,7 @@ exports.textMenu = (sender, nama, namabot) => {
 
 [ *RANDOM-MENU*]
 • #menfess [628××××××××××]
+• #simi [text]
 
 [ *ANIME-MENU* ]
 • #kiss
