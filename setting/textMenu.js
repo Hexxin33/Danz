@@ -13,5 +13,13 @@ exports.textMenu = (sender, nama, namabot) => {
 • #demote [@tag]
 • #welcome [On/Off]
 
+[ *RANDOM-MENU*]
+• #menfess [628××××××××××]
+
+[ *ANIME-MENU* ]
+• #kiss
+• #neko
+• #waifu
+
 © ${namabot} | by *${nama}* | 🇮🇩`
 }
