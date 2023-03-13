@@ -32,5 +32,5 @@ exports.textMenu = (sender, nama, namabot) => {
 [ *AUDIO-MENU* ]
 • #audio [Pilih angka 1-15]
 
-© ${namabot} | by *${nama}* | 🇮🇩`
+© ${namabot} | 2023
 }
