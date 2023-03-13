@@ -9,7 +9,7 @@ var textInfo = `[ *${namabot}-INFO* ]
 
 *-* *Bot ini masih dalam tahap pengembangan*
 
-© ${namabot} | by *${nama}* | 🇮🇩`
+© ${namabot} | 2023
 
 md.sendMessage(from, { text: textInfo, mentions: [owner + "@s.whatsapp.net"]}, {quoted: md1})
 } catch (e) { console.log(e) }
